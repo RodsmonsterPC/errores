@@ -1,6 +1,6 @@
 export const creatStore = () => {
   const fruits = [];
-
+  console.log("hola");
   return {
     addFruit: (fruit) => {
       fruits.push(fruit);

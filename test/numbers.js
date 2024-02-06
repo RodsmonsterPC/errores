@@ -11,9 +11,8 @@ export const div = (a, b) => a / b;
 
 export const res = (a, b) => a - b;
 
-export const getRand = (min, max) => {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-};
+export const getRand = (min, max) =>
+  Math.floor(Math.random() * (max - min + 1)) + min;
 
 export const getPI = () => 3.1416;
 

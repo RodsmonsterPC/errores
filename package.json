@@ -5,17 +5,22 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test:ui": "vitest --ui"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vitest/ui": "^0.31.1",
     "prettier": "^2.8.8",
     "standart": "^6.1.0",
     "vitest": "^0.31.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
   }
 }
